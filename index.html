@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="assets/style/generic.css" />
+    <script
+      src="https://kit.fontawesome.com/58fefbd958.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://media.discordapp.net/attachments/936007410949193733/990012862967734292/opera_BAwJnPPNZC.png"
+    />
+    <title>Fanpage BG</title>
+  </head>
+  <body>
+    <p id="siquelOP" style="display: none">
+      BETI STAR WYGRYWA Z SIQUELEM W VALORANTA
+    </p>
+    <main>
+      <div class="header">
+        <a onclick="openImg();">Fanclub BG</a>
+        <p id="controls-important">controls.update();</p>
+      </div>
+      <img
+        id="beanz"
+        style="display: none; width: 100%"
+        src="https://media.discordapp.net/attachments/959094440587321444/989981384095449158/unknown.png?width=975&height=613"
+      />
+      <div class="wellCUM">
+        <span>
+          <p class="menu">
+            <a class="animated-letters">F</a>
+            <a class="animated-letters">A</a>
+            <a class="animated-letters">N</a>
+            <a class="animated-letters">P</a>
+            <a class="animated-letters">A</a>
+            <a class="animated-letters">G</a>
+            <a class="animated-letters">E</a>
+            <br />
+            <a class="animated-letters">&nbsp;B</a>
+            <a class="animated-letters">G</a>
+            <a class="animated-letters">!</a>
+            <a class="animated-letters" style="font-size: 0.7em">(i PC)</a>
+          </p>
+          <button
+            class="linksFC discord"
+            onclick="window.open('https://discord.com/channels/936007410949193729','_blank')"
+          >
+            <i class="fa-brands fa-discord"></i>
+            DISCORD
+          </button>
+          <br />
+          <button
+            class="linksFC messenger"
+            onclick="window.open('https://www.messenger.com/t/4441199115998483','_blank')"
+          >
+            <i class="fa-brands fa-facebook-messenger"></i>
+            MESSENGER
+          </button>
+          <br />
+          <button
+            class="linksFC teams"
+            onclick="window.open('https://teams.microsoft.com/l/channel/19%3aNMXXQquTd2TMyBM41m48ZyMa0eBy1x68S0hMB746MJs1%40thread.tacv2/Og%25C3%25B3lny?groupId=d11c6072-9536-49a5-b4b5-a15c5532ca4f&tenantId=85c4294a-f85e-4bed-96db-4093d0b89e75','_blank')"
+          >
+            <i class="fa-solid fa-people-group"></i>
+            TEAMS
+          </button>
+          <br />
+          <button
+            class="linksFC youtube"
+            onclick="window.open('https://www.youtube.com/channel/UCOp2pxDRJYa6t7MvclSPeeg','_blank')"
+          >
+            <i class="fa-brands fa-youtube"></i>
+            YOUTUBE
+          </button>
+          <br />
+          <button
+            class="linksFC gallery"
+            onclick="window.open('./gallery.html','_blank')"
+          >
+            <i class="fa-solid fa-camera"></i>
+            GALERIA
+          </button>
+        </span>
+        <div class="siquelBlocker">
+          <img
+            class="imgWBG"
+            src="https://cdn.dribbble.com/users/374271/screenshots/5419981/artificial-intelligence-animation.gif"
+            alt="Zdjecie z BG"
+          />
+        </div>
+      </div>
+      <hr
+        color="white"
+        width="80%"
+        size="2"
+        style="box-shadow: 0px 0px 6px 3px cyan"
+      />
+      <div class="dropdown__container">
+        <div class="dropdown hidden" id="dropdown">
+          <div class="dropdown__header">
+            <span class="dropdown__header-title"
+              ><i class="fa-solid fa-newspaper"></i> News</span
+            >
+            <span class="dropdown__header-button" id="dropdown_showHide"
+              ><span></span><span></span
+            ></span>
+          </div>
+          <div class="dropdown__content">
+            <header class="news-hd">NOWOŚCI</header>
+            <div class="news">
+              <div class="main-news">
+                <h3 class="news-title">ELEKTRYK NEWS - <p id="sus"></p></h3>
+                <p class="article" id="susART"></p>
+              </div>
+              <div class="bgfc-news">
+                <h3 class="news-title">FANCLUB NEWS - <p id="bgfc"></p></h3>
+                <p class="article" id="bgfcART"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dropdown hidden">
+          <div class="dropdown__header">
+            <span class="dropdown__header-title"
+              ><i class="fa-solid fa-medal"></i> Dostępne rangi</span
+            >
+            <span class="dropdown__header-button" id="dropdown_showHide"
+              ><span></span><span></span
+            ></span>
+          </div>
+          <div class="dropdown__content ranks">
+            <div class="divider">
+              <span></span>
+              <span class="content">🔵 KIERUNEK 🔵</span>
+              <span></span>
+            </div>
+            <ul>
+              <li>
+                <span id="rank2" class="title green"
+                  >🟢Technik Programista🟢</span
+                ><span class="description"
+                  >- należy być technikiem programistą, proste</span
+                >
+              </li>
+              <li>
+                <span id="rank4" class="title blue">🔵Technik Informatyk🔵</span
+                ><span class="description"
+                  >- należy być technikiem informatykiem, proste</span
+                >
+              </li>
+              <li>
+                <span id="rank5" class="title fake-blue"
+                  >🔵Technik Informatyk🔵</span
+                ><span class="description"
+                  >- odpowiednik rangi
+                  <span class="blue">🔵Technik Informatyk🔵</span> bez dostępu
+                  do strefy fanclubowej, bycie informatykiem, który truł dupę
+                  jednemu z klubowiczów na tyle, że został (nie)przyjęty do
+                  FCBG, ma najniższe prawa w hierarchii</span
+                >
+              </li>
+              <li>
+                <span id="rank3" class="title fake-green"
+                  >🟢Technik Programista🟢</span
+                ><span class="description"
+                  >- odpowiednik rangi
+                  <span class="green">🟢Technik Programista🟢</span> bez dostępu
+                  do strefy fanclubowej, bycie informatykiem, który truł dupę
+                  jednemu z klubowiczów na tyle, że został (nie)przyjęty do
+                  FCBG, ma najniższe prawa w hierarchii</span
+                >
+              </li>
+            </ul>
+
+            <div class="divider">
+              <span></span>
+              <span class="content">🏅 ODZNACZENIA 🏅</span>
+              <span></span>
+            </div>
+            <ul>
+              <li>
+                <span id="rank14" class="title cyan"
+                  >👔 PRAWDZIWY KLUBOWICZ 👔</span
+                ><span class="description">
+                  - osoba, która w dniu
+                  <date><em>10.06.2022</em></date> odpowiednio się ubrała oraz
+                  przyczyniła się do akcji pożegnania BG</span
+                >
+              </li>
+              <li>
+                <span id="rank15" class="title blue">💡 Intel lepszy 💡</span
+                ><span class="description">
+                  - osoba, która uczestniczy/-ła w zajęciach dodatkowych z AI
+                  (AI for youth)</span
+                >
+              </li>
+            </ul>
+
+            <div class="divider">
+              <span></span>
+              <span class="content">👑 BG 👑</span>
+              <span></span>
+            </div>
+            <ul>
+              <li>
+                <span id="rank1" class="title green">👑 Pochwała od BG 👑</span
+                ><span class="description">
+                  - otrzymanie pochwały od BG - "Bardzo ładnie Panie/Pani
+                  [NAZWISKO]"</span
+                >
+              </li>
+              <li>
+                <span id="rank16" class="title light-red"
+                  >🟥 upomnienie od BG 🟥</span
+                ><span class="description">
+                  - zostanie upomnianym przez BG, dobór słów dowolny</span
+                >
+              </li>
+              <li>
+                <span id="rank12" class="title red"
+                  >&#10134; Duży minus od BG &#10134;</span
+                ><span class="description">
+                  - zostanie upomnianym przez BG - "Dostajesz bardzo dużego
+                  minusa za [POWÓD]", bądź zbliżone do tego sentencje</span
+                >
+              </li>
+            </ul>
+
+            <div class="divider">
+              <span></span>
+              <span class="content">🗺️ JĘZYK 🗺️</span>
+              <span></span>
+            </div>
+            <ul>
+              <li>
+                <span id="rank8" class="title gold">🇩🇪 Niemiecki 🇩🇪</span
+                ><span class="description"> grupa języka niemieckiego </span>
+              </li>
+              <li>
+                <span id="rank9" class="title navy">🇷🇺 Rosyjski 🇷🇺</span
+                ><span class="description"> grupa języka rosyjskiego </span>
+              </li>
+              <li>
+                <span id="rank10" class="title pink">🎓 ang 1 🎓</span
+                ><span class="description">
+                  grupa języka angielskiego(Ci gorsi)</span
+                >
+              </li>
+              <li>
+                <span id="rank11" class="title dark-pink">🛡️ ang 2 🛡️</span
+                ><span class="description">
+                  grupa języka angielskiego(jeszcze gorsi)</span
+                >
+              </li>
+            </ul>
+
+            <div class="divider">
+              <span></span>
+              <span class="content">📎 INNE 📎</span>
+              <span></span>
+            </div>
+            <ul>
+              <li>
+                <span id="rank7" class="title brown">🐷 Tuman 🐷</span
+                ><span class="description">
+                  - osoba, która została nazwana tumanem przez Piotra
+                  Cymermana(aka Cymusia), sposób zdobycia: zostanie nazwanym
+                  przez Cymermana tumanem w trakcie jakiejkolwiek lekcji,
+                  powodem może być np. niepoprawna odpowiedź na pytanie</span
+                >
+              </li>
+              <li>
+                <span id="rank13" class="title homo"
+                  >🌈 <span class="rainbow">gejostwo</span> 🌈</span
+                ><span class="description"> - ???</span>
+              </li>
+              <li>
+                <span id="rank6" class="title black">🎱 Alan 🎱</span
+                ><span class="description"> - Alan Dziok</span>
+              </li>
+              <li>
+                <span id="rank18" class="title white">🎮 REMKA GRY 🎮</span
+                ><span class="description"> - Remka</span>
+              </li>
+            </ul>
+
+            <div class="divider">
+              <span></span>
+              <span class="content">&lt;/> FANCLUB &lt;/></span>
+              <span></span>
+            </div>
+            <ul>
+              <li>
+                <span id="rank17" class="title light-red"
+                  >⚠️ MINUS OD FANKLUBU ⚠️</span
+                ><span class="description"
+                  >zrobienie czegoś nieodpowiedniego, można go nadać po
+                  demokratycznym głosowaniu(głosy posiadaczy rangi
+                  <span class="green">👑 Pochwała od BG 👑</span> są liczone
+                  podwójnie)</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown hidden">
+          <div class="dropdown__header">
+            <span class="dropdown__header-title"
+              ><i class="fa-solid fa-book"></i> Konstytucja fanclubu</span
+            >
+            <span class="dropdown__header-button" id="dropdown_showHide"
+              ><span></span><span></span
+            ></span>
+          </div>
+          <div class="dropdown__content" id="law-content"></div>
+        </div>
+        <div class="dropdown hidden" id="dropdown">
+          <div class="dropdown__header">
+            <span class="dropdown__header-title"
+              ><i class="fa-solid fa-envelope"></i> Contact Us</span
+            >
+            <span class="dropdown__header-button" id="dropdown_showHide"
+              ><span></span><span></span
+            ></span>
+          </div>
+          <div class="dropdown__content contact">
+            <contactUs>
+              <div>
+                <a class="title">Contact Us</a>
+              </div>
+              <input
+                type="text"
+                name="subject"
+                id="esubject"
+                placeholder="Subject"
+              />
+              <textarea
+                name="content"
+                id="econtent"
+                placeholder="Write here..."
+              ></textarea>
+              <br />
+              <button id="esubmit">
+                <i class="fa-solid fa-paper-plane"></i>
+                Send</button>
+            </contactUs>
+            <div class="divider">
+              <span></span>
+              <span class="content">Lokalizacja</span>
+              <span></span>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2579.533044410626!2d21.714882051654765!3d49.71959217928011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473c4ec102854e01%3A0x5c5d27c9bc31e06!2zWmVzcMOzxYIgU3prw7PFgiBFbGVrdHJ5Y3pueWNoIGkgT2fDs2xub2tzenRhxYJjxIVjeWNoIHcgS3JvxZtuaWU!5e0!3m2!1spl!2spl!4v1656412801927!5m2!1spl!2spl"
+              width="70%"
+              height="450"
+              style="
+                border: 0;
+                border-radius: 15px;
+                box-shadow: 0px 0px 30px 1px cyan;
+                display: block;
+                margin-inline: auto;
+              "
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="divider">
+              <span></span>
+              <span class="content">Media</span>
+              <span></span>
+            </div>
+            <div class="media">
+              <div class="contentWrapper">
+                <h1>
+                  <i class="fa-brands fa-youtube" style="color: #ff0000"></i
+                  >YouTube:
+                </h1>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/channel/UCOp2pxDRJYa6t7MvclSPeeg"
+                      >Kanał Główny</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/channel/UCmK_TeRHdW4409iDT_dT2Og"
+                      >Siquel_OP</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/channel/UCVjF134mj4-zVT3UWoIP2Yg"
+                      >remka games</a
+                    >
+                  </li>
+                </ul>
+                <h1>
+                  <i class="fa-brands fa-facebook-f" style="color: #0000ff"></i
+                  >Facebook:
+                </h1>
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      >Fanpage</a
+                    >
+                  </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown hidden" id="dropdown">
+          <div class="dropdown__header">
+            <span class="dropdown__header-title"
+              ><i class="fa-solid fa-address-card"></i> About Us</span
+            >
+            <span class="dropdown__header-button" id="dropdown_showHide"
+              ><span></span><span></span
+            ></span>
+          </div>
+          <div class="dropdown__content">
+            <div class="aboutUs">
+              <div class="divider">
+                <span></span>
+                <span class="content">Nasze cele</span>
+                <span></span>
+              </div>
+              <p>
+                Naszym celem jest głównie zachowanie pamięci o BG, najlepszym
+                mentorze, jakiego było nam dane poznać. Chcemy, aby jak
+                najwięcej osób mogło się o tym przekonać, tak, jak my.
+              </p>
+              <div class="divider">
+                <span></span>
+                <span class="content">Czym się zajmujemy?</span>
+                <span></span>
+              </div>
+              <p>
+                Fanclub jest organizacją zajmującą się szerzeniem ideologii oraz
+                poglądów BG. Zajmujemy się także tworzeniem różnego typu
+                projektów oraz rekrutacją nowych członków. Fanclub działa na
+                terenie miasta Krosna, a szczególnie na terenie ZS numer 5 w
+                Krośnie.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- <hr /> -->
+      <p>
+        Wersja strony: Wczesna Alfa
+      </p>
+      <p>
+      Strona wykonana przez Zarząd Fanclubu & Fanpage'a:
+      Drabik&trade;,&nbsp;Bronka&trade;&nbsp; &nbsp;&nbsp;&nbsp;&copy;1410-<span
+        id="year"
+      ></span>
+      </p>
+    </footer>
+  </body>
+</html>
