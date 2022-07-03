@@ -18,7 +18,7 @@
               ]
             },
             {
-              "main": "Wszelakie dobra materialne klubowiczów uznaje się za NASZE dobra wspólne"
+              "main": "Wszelakie dobra materialne klubowiczów uznaje się za NASZE dobra wspólne."
             },
             {
               "main": "W fanclubie panuje stare Północno-Koreańskie przysłowie - \"Kto się śmieje z Kima, tego zaraz ni ma\"."
@@ -96,6 +96,9 @@
             },
             {
               "main": "Na czele sił zbrojnych fanclubowych stoi I Dowódca W. Pasza."
+            },
+            {
+              "main": "Siły zbrojne służą fanclubowi, jak i wszystkim jego członkom."
             }
           ]
         },
@@ -124,6 +127,14 @@
               ]
             }
           ]
+        },
+        {
+          "main": "Art. %ART_NO%",
+          "article": [
+            {
+              "main": "W przypadku posiadania ról negatywnych(na przykład: 🟥 upomnienie od BG 🟥) powyższy system nie funkcjonuje. Rola negatywna oznacza najniższą pozycję w społeczności FCBG niezależnie od innych posiadanych przez klubowicza ról."
+            }
+          ]
         }
       ]
     },
@@ -149,7 +160,7 @@
           "main": "Art. %ART_NO%",
           "article": [
             {
-              "main": "Najważniejszym świętem w roku jest data 10.06.2022 (?????). Jest to data ostatniej lekcji z BG."
+              "main": "Najważniejszym świętem w roku jest data 10.06.2022. Jest to data ostatniej lekcji z BG."
             },
             {
               "main": "W przypadku wybranych przez wszystkich klubowiczów świąt obowiązuje odświętny strój."
@@ -171,11 +182,11 @@
             {
               "main": "Każdy klubowicz jest zobowiązany do:",
               "underlist": [
-                "Wielbienie BG",
-                "Nienaganna i bezwzględna znajomość konstytucji",
-                "Przestrzeganie zasad konstytucji",
+                "Wielbienia BG",
+                "Nienagannej i bezwzględnej znajomości konstytucji",
+                "Przestrzegania zasad konstytucji",
                 "Godnego reprezentowania fanclubu",
-                "W przypadku konieczności chodzenia do baru"
+                "W przypadku konieczności - chodzenia do baru"
               ]
             },
             {
