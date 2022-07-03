@@ -22,6 +22,9 @@
             },
             {
               "main": "W fanclubie panuje stare Północno-Koreańskie przysłowie - \"Kto się śmieje z Kima, tego zaraz ni ma\"."
+            },
+            {
+              "main": "Zarząd może użyć wszelkich metod(w tym zbrodni wojennych), aby wypełnić treść w/w powiedzenia."
             }
           ]
         },
@@ -57,7 +60,7 @@
           "main": "Art. %ART_NO%",
           "article": [
             {
-              "main": "Aby skutecznie utrzymywać niepodległość oraz relacje międzynarodowe fanclubu zarząd ma pełne uprawnienia i jest w pełni zwolniony z wszelakiej odpowiedzialności prawnej."
+              "main": "Aby skutecznie utrzymywać niepodległość oraz relacje międzynarodowe fanclubu zarząd ma pełne uprawnienia i jest w pełni zwolniony z wszelakiej odpowiedzialności prawnej(w tym zbrodni wojennych)."
             }
           ]
         },
@@ -172,7 +175,7 @@
                 "Nienaganna i bezwzględna znajomość konstytucji",
                 "Przestrzeganie zasad konstytucji",
                 "Godnego reprezentowania fanclubu",
-                "[chodzenie do baru] TODO"
+                "W przypadku konieczności chodzenia do baru"
               ]
             },
             {
@@ -394,6 +397,6 @@
       ]
     }
   ],
-  "last_modified": "02.07.2022",
+  "last_modified": "03.07.2022",
   "additional_info": ["Autorzy: Zarząd FCBG","Powyższa konstytucja zaczyna obowiązywać wraz z dniem 03.07.2022"]
 }
